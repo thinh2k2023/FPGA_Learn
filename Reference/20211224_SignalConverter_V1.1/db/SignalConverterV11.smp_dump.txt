@@ -1,0 +1,8 @@
+
+State Machine - |SignalConverterV11|received_SM_Main
+Name received_SM_Main.state_Cleanup received_SM_Main.state_RX_Stop_Bit received_SM_Main.state_RX_Data_Bits received_SM_Main.state_RX_Start_Bit received_SM_Main.state_Idle 
+received_SM_Main.state_Idle 0 0 0 0 0 
+received_SM_Main.state_RX_Start_Bit 0 0 0 1 1 
+received_SM_Main.state_RX_Data_Bits 0 0 1 0 1 
+received_SM_Main.state_RX_Stop_Bit 0 1 0 0 1 
+received_SM_Main.state_Cleanup 1 0 0 0 1 
